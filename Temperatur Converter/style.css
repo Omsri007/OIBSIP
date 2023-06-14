@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    min-height: 100vh;
+    background: #59c6b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    background: #59cbdb;
+    box-shadow: 1px 20px 30px black;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.input1{
+    font-size: 1.5rem;
+}
+
+#small{
+    font-size: 1rem;
+}
+
+#inputValue{
+    padding: 5px;
+}
+
+.inpt{
+    font-size: 1.5rem;
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.from{
+    margin-right: 80px;
+}
+
+#type1{
+    font-size: 1.1rem;
+}
+
+#type2{
+    font-size: 1.1rem;
+}
+
+#btn{
+    font-size: 1.1rem;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.resultss{
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+
+
+@media only screen and (max-width: 575px) {
+    section {
+        transform: scale(0.95);
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    section {
+        transform: scale(0.6);
+    }
+}
+
+@media only screen and (max-width: 232px) {
+    section {
+        transform: scale(0.4);
+    }
+}
