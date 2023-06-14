@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: flex;
+}
+
+.logo img{
+    height: 65px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.navbar{
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+}
+
+.navbar li{
+    margin: 0px 30px;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.Screen{
+    height: 100vh;
+}
+
+.background{
+    background: url(pexels-victor-freitas-2261477.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.section1{
+    height: 70vh;
+}
+
+.quotes{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    height: 90%;
+}
+
+.text{
+    margin: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-text{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    font-size: 2rem;
+}
+
+.small-text{
+    font-family: 'Poppins', sans-serif;
+    width: 110%;
+    font-size: 1rem;
+    margin-top: 5%;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.btn{
+    font-size: 1.3rem;
+    border: 2px solid white;
+    border-radius: 9%;
+    padding: 2%;
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+}
+
+.btn:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.bt{
+    font-size: 1.3rem;
+    border: 2px solid black;
+    border-radius: 9%;
+    padding: 2%;
+    margin: 0px 10px;
+    background-color: white;
+    color: black;
+}
+
+.bt:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.section2{
+    width: 100%;
+    background-color: black;
+}
+
+.heading{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gymtable{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 90vh;
+    color: white;
+}
+
+.table{
+    padding: 15px;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.table thead{
+    font-size: 1.5rem;
+}
+
+.table th{
+    padding: 5px 50px;
+    border: 2px solid white;
+}
+
+.table td{
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.table tr{
+    font-size: 1.8rem;
+}
+
+.section3{
+    padding: 80px;
+}
+
+.background2{
+    background: url(gymprice.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    height: auto;
+}
+
+.price-text{
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+    font-size: 1rem;
+    margin-top: 2%;
+    color: white;
+}
+
+.squares{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.square ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 10px 40px;
+}
+
+.square ul li{
+    padding: 10px;
+}
+
+.square{
+    border: 2px solid red;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+
+.bold{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: red;
+}
+
+.btns{
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+}
+
+.btns:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input{
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 50%;
+}
+
+.form-input:hover{
+    border: 2px solid red;
+}
+
+.text-heading{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 20px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width: 920px) {
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img{
+        margin-left: 0;
+    }
+    
+    .navbar{
+        flex-direction: column;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header{
+        display: block;
+    }
+
+    .navbar li{
+        margin: 6px 30px;
+    }
+
+    .table th {
+        padding: 1px 5px;
+    }
+
+    .squares{
+        flex-direction: column;
+    }
+
+    .text{
+        margin: auto;
+    }
+}
+
+@media (max-width: 650px){
+
+    .table tr {
+        font-size: 1rem;
+    }
+
+    .table thead {
+        font-size: 1rem;
+    }
+
+    .btn{
+        font-size: 0.9rem;
+    }
+
+    .bt{
+        font-size: 0.9rem;
+    }
+
+    .big-text{
+        font-size: 1rem;
+    }
+
+    .small-text{
+        font-size: 0.8rem;
+    }
+
+    .text{
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .section3{
+        padding: 10px;
+    }
+
+    .heading{
+        font-size: 1rem;
+    }
+
+    .price-text{
+        font-size: 0.9rem;
+    }
+
+    .quotes{
+        align-items: none;
+        justify-content: none;
+        max-width: none;
+        margin: 10px;
+    }
+
+    .small-text{
+        width: 100%;
+    }
+
+}
