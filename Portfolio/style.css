@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+main{
+    background-color: aquamarine;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.logo img{
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.navbar{
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+}
+
+.navbar li{
+    margin: 0px 30px;
+    font-size: 2.5rem;
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.hi{
+    color: blue;
+    margin-right: 10px;
+    font-size: 4rem;
+}
+
+.me{
+    font-size: 4rem;
+    margin-right: 10px;
+}
+
+.name{
+    font-size: 4rem;
+    color: blue;
+    font-family: 'Dancing Script', cursive;
+}
+
+.home{
+    border-top: 2px solid crimson;
+}
+
+.container{
+    border-top: 2px solid red;
+}
+
+.row{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.do{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.prof{
+    font-size: 3.5rem;
+    margin-right: 10px;
+}
+
+.profession{
+    font-size: 3.5rem;
+    color: crimson;
+}
+
+.para{
+    margin: 20px 350px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hire{
+    display: flex;
+    justify-content: center;
+    font-size: 2.3rem;
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid crimson;
+    background-color: crimson;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.hire:hover{
+    color: crimson;
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.about{
+    border-top: 2px solid crimson;
+}
+
+.title{
+    font-size: 3rem;
+    color: blue;
+}
+
+.about-text{
+    width: 90%;
+}
+
+.about-text h3{
+    text-align: initial;
+    font-size: 2rem;
+}
+
+.about-text span{
+    color: crimson;
+}
+
+.about-text p{
+    font-size: 1.5rem;
+    text-align: initial;
+    margin-top: 15px;
+}
+
+.personal{
+    font-size: 1.5rem;
+    border: 2px solid blue;
+    padding: 0px 20px;
+    border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 20px 20px blue;
+    background-color: antiquewhite;
+    height: auto;
+}
+
+.personal:hover{
+    border: 2px solid crimson;
+    box-shadow: 0px 20px 20px crimson;
+    background-color: aqua;
+    height: 54vh;
+}
+
+.personal-info{
+    margin: 10px;
+}
+
+.personal-info span{
+    color: crimson;
+}
+
+.buttons{    
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.download{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 5px;
+    background-color: blue;
+}
+
+.download:hover{
+    background-color: crimson;
+}
+
+.download2{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 5px;
+    background-color: blue;
+}
+
+.download2:hover{
+    background-color: crimson;
+}
+
+.skill{
+    border-top: 2px solid crimson;
+    margin-top: 40px;
+}
+
+.skill-row{
+    margin-top: 30px;
+}
+
+.direction{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2.3rem;
+}
+
+.skill-item{
+    padding: 20px;
+}
+
+.progress{
+    background-color: white;
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+}
+
+.progress-made{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: crimson;
+}
+
+.percentage{
+    position: absolute;
+    right: -100px;
+    color: crimson;
+    top: -40px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.contact{
+    border-top: 2px solid red;
+}
+
+.contact-row{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: initial;
+    width: 100vh;
+    font-size: 2.5rem;
+}
+
+.form-control{
+    width: 100vh;
+    font-size: 1.8rem;
+    margin: 10px 0px;
+    padding: 6px;
+    border: 2px solid crimson;
+    border-radius: 10px;
+}
+
+.form-writer{
+    margin: 20px;
+}
+
+.button-row{
+    margin-top: -20px;
+    height: 10vh;
+}
+
+.btn{
+    font-size: 1.5rem;
+    padding: 8px;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: crimson;
+    cursor: pointer;
+}
+
+@media (max-width: 1420px) {
+    
+    .para{
+        margin: 20px 50px;
+    }
+}
+
+@media (max-width: 1000px){
+
+    .logo img{
+        margin: auto;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+    }
+
+    .navbar li {
+        margin: 10px 30px;
+    }
+}
+
+@media (max-width: 750px){
+
+    .hi{
+        font-size: 2.5rem;
+    }
+
+    .me{
+        font-size: 2.5rem;
+    }
+
+    .name{
+        font-size: 2.5rem;
+    }
+
+    .do{
+        margin-top: 30px;
+    }
+
+    .prof{
+        font-size: 2rem;
+    }
+
+    .profession{
+        font-size: 2rem;
+    }
+
+    .para{
+        font-size: 1.3rem;
+    }
+
+    .hire{
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .half1{
+        margin-right: auto;
+    }
+
+    .skill-row{
+        transform: scale(0.7);
+    }
+
+    .contact-row{
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+
+    .form-control{
+        width: auto;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 640px){
+
+    .half2{
+        margin-right: auto;
+    }
+
+    .direction{
+        flex-direction: column;
+    }
+
+    .skill-row{
+        display: flex;
+        justify-content: center;
+        margin-top: -50px;
+    }
+
+    .hi{
+        font-size: 1.5rem;
+    }
+
+    .me{
+        font-size: 1.5rem;
+    }
+
+    .name{
+        font-size: 1.5rem;
+    }
+
+    .do{
+        margin-top: 20px;
+    }
+
+    .prof{
+        font-size: 1.5rem;
+    }
+
+    .profession{
+        font-size: 1.5rem;
+    }
+
+    .para{
+        font-size: 1rem;
+    }
+
+    .hire{
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .about-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .about-text p{
+        font-size: 1rem;
+    }
+
+    .personal{
+        font-size: 1rem;
+    }
+
+    .download{
+        font-size: 0.7rem;
+    }
+
+    .download2{
+        font-size: 0.7rem;
+    }
+
+    .navbar li{
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact-row{
+        width: auto;
+    }
+
+    .direction{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 350px) {
+    
+    .personal{
+        transform: scale(0.7);
+    }
+
+    .contact-form{
+        margin-top: -250px;
+        transform: scale(0.5);
+    }
+}
